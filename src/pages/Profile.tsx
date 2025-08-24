@@ -50,6 +50,10 @@ export default function Profile() {
     }
   };
 
+  const handleDeleteAccount = () => {
+    void deleteAccount();
+  };
+
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -73,7 +77,7 @@ export default function Profile() {
           {user && <p className="text-lg mt-2">{user.email}</p>}
           <button
             className="mt-4 bg-blue-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded"
-            onClick={deleteAccount}
+            onClick={handleDeleteAccount}
           >
             Delete Account
           </button>
