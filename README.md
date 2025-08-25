@@ -1,3 +1,4 @@
+https://gradiancee.netlify.app/
 https://gradiance.azurewebsites.net/
 
 ![image](https://github.com/Maxerns/Gradiance/assets/132019073/e7ed57ef-a48a-4cc9-95f3-32c140f56dc1)
